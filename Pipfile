@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+django = "*"
+djangorestframework = "*"
+djangorestframework-xml = "*"
+django-cors-headers = "*"
+pillow = "*"
+django-ckeditor = "*"
+cloudinary = "*"
+django-cloudinary-storage = "*"
+mysqlclient = "*"
+psycopg2 = "*"
+gunicorn = "*"
+whitenoise = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
